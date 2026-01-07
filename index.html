@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Web Sitesi Oluşturma | Hasan Uyguna Web Tasarım</title>
+    <meta name="description" content="Hasan ile profesyonel ve uygun fiyatlı web sitesi oluşturma. Tanıtım, kişisel ve işletme siteleri için hemen iletişime geçin.">
+    <meta name="keywords" content="web sitesi oluşturma, uygun fiyatlı web sitesi, Hasan web tasarım, kişisel web sitesi, web sitesi yaptırmak">
+    <meta name="author" content="Hasan">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: #0f172a;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        header {
+            min-height: 90vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 40px 20px;
+            background: radial-gradient(circle at center, #1e293b 0%, #0f172a 100%);
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            color: #38bdf8;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            line-height: 1.1;
+        }
+
+        .description {
+            font-size: 1.3rem;
+            color: #94a3b8;
+            margin-bottom: 20px;
+            max-width: 700px;
+        }
+
+        .highlight-text {
+            font-size: 1.1rem;
+            color: #f1f5f9;
+            background: rgba(56, 189, 248, 0.1);
+            padding: 10px 20px;
+            border-radius: 10px;
+            border: 1px dashed #38bdf8;
+            margin-bottom: 30px;
+        }
+
+        .services {
+            padding: 60px 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #38bdf8;
+            font-size: 2.2rem;
+        }
+
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .service-card {
+            background: #1e293b;
+            padding: 30px;
+            border-bottom: 4px solid #38bdf8;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            background: #243147;
+        }
+
+        .contact-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .contact-btn {
+            display: inline-block;
+            background-color: #25d366;
+            color: white;
+            padding: 18px 40px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 1.2rem;
+            transition: all 0.3s;
+            box-shadow: 0 10px 20px rgba(37, 211, 102, 0.2);
+        }
+
+        .contact-btn:hover {
+            background-color: #128c7e;
+            box-shadow: 0 5px 10px rgba(37, 211, 102, 0.4);
+        }
+
+        .phone-number {
+            display: block;
+            margin-top: 20px;
+            font-size: 1.5rem;
+            color: #38bdf8;
+            font-weight: bold;
+        }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 2.5rem; }
+            .description { font-size: 1.1rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>WEB SİTESİ OLUŞTURMA</h1>
+        <p class="description">Ben Hasan, uyguna web sitesi oluşturuyorum.</p>
+        <p class="highlight-text">✨ İstediğiniz her şekilde ve her sektörde web sitesi oluşturabilirim!</p>
+        
+        <div class="contact-container">
+            <a href="https://wa.me/905434328243" class="contact-btn">WhatsApp ile İletişime Geç</a>
+            <span class="phone-number">0543 432 82 43</span>
+        </div>
+    </header>
+
+    <section class="services">
+        <h2>Hizmetlerim</h2>
+        <div class="service-grid">
+            <div class="service-card">
+                <h3>Tanıtım Siteleri</h3>
+                <p>Ürün veya projeleriniz için modern görünümlü sayfalar.</p>
+            </div>
+            <div class="service-card">
+                <h3>Kişisel Siteler</h3>
+                <p>Kendi adınıza özel portfolyo ve CV siteleri.</p>
+            </div>
+            <div class="service-card">
+                <h3>İşletme Siteleri</h3>
+                <p>Müşterilerinizin size kolayca ulaşabileceği kurumsal çözümler.</p>
+            </div>
+        </div>
+    </section>
+
+    <div style="padding-bottom: 80px;"></div>
+
+</body>
+</html>
